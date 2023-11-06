@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(40, 40, 40);
+}
+
+.wrapper {
+    margin: 70px 730px;
+    padding-right: 500px;
+    animation-name: wrap;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes wrap {
+    0% {border: 4px solid #282828;}
+    25% {border: 4px solid #282828; padding-right: 0px; padding-left: 500px;}
+    50% {border: 4px solid #282828; padding-right: 0px; padding-left: 500px;}
+    75% {border: 4px solid #282828; padding-right: 500px; padding-left: 0px;}
+    100% {border: 4px solid #282828;}
+}
+
+.mydiv {
+    background-color: #282828;
+    padding: 27px;
+    margin-bottom: 300px;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {background-color:red; margin: 0px 0px 300px 0px;}
+    25% {background-color:yellow; margin: 0px 0px 300px -55px;}
+    50% {background-color:green; margin: 300px 0px 0px -55px;}
+    75% {background-color:blue; margin: 300px 0px 0px 0px;}
+    100% {background-color:red; margin: 0px 0px 300px 0px;}
+}
+
+.wrap {
+    margin-top: 9%;
+    margin-left: 47%;
+}
+
+#percent {
+    color: #282828;
+    font-size: 65px;
+    animation-name: percent;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes percent {
+    0% {color: red;}
+    25% {color: orange;}
+    50% {color: yellow;}
+    75% {color: greenyellow;}
+    100% {color: green;}
+}
+
+.button {
+    color: #282828;
+    background-color: #282828;
+    font-size: 37px;
+    border: none;
+    padding: 17px 27px;
+    margin: 0 44%;
+    animation-name: button;
+    animation-duration: 2s;
+    animation-delay: 13s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes button {
+    0% {}
+    100% {background-color: #ccc; color: #000;}
+}
